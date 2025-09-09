@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "cinttypes": "cpp",
+        "ccomplex": "cpp",
+        "iostream": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "stack": "cpp",
+        "string": "cpp",
+        "__locale": "cpp",
+        "regex": "cpp",
+        "string_view": "cpp",
+        "queue": "cpp",
+        "deque": "cpp",
+        "istream": "cpp"
+    }
+}
