@@ -1,0 +1,22 @@
+# C/C++ build artifacts
+*.o
+*.obj
+*.out
+a.out
+*.exe
+
+# MacOS metadata
+.DS_Store
+
+# Backup of original nested repo (kept locally only)
+basic-algo-lecture-backup/
+
+# VSCode settings (keep selected files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/mcp.json
+
+# Others
+.idea/
+.clangd/
+compile_commands.json
