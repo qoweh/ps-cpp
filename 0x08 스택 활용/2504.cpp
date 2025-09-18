@@ -1,55 +1,55 @@
-#include "../bits/stdc++.h"
+#include "../bits/stdc++.h" 
+
 using namespace std;
-bool is_num(char k)
-{
-    return ('0' <= k && k <= '9');
-}
-int main(void)
-{
+
+int main(void) {
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    string init;
-    stack<int> S;
-    bool flag = false;
-    int answer = 0;
+    int p = 0;
+    stack<int> I;
+    stack<char> C;
+    bool inside = true;
 
-    cin >> init;
-    for (auto a : init)
-    {
-        if (flag) break;
-        if (a == '[' || a == '(') S.push(a);
-        else if (a == ']' || a == ')')
-        {
-            if (S.empty())
-            {
-                flag = true;
+    string s;
+    cin >> s;
+    for (auto i = 0; i < s.size(); i++) {
+        if (s[i] == '(' || s[i] == '[') {
+
+            C.push(s[i]);
+        }
+        else if (s[i] == ')') {
+            
+            if (s[i-1] == '(') {
+                if (inside) {
+                    I.push(2);
+                    C.pop();
+                    inside = false;
+                } else {
+                    
+                }
+            } else {
+                p = 0;
                 break;
             }
-            int num = 0;
-            while (is_num(S.top()))
-            {
-                num += (S.top() - '0');
-                S.pop();
+        } else if (s[i] == ']') {
+            if (s[i-1] == '[') {
+                if (inside) {
+                    I.push(3);
+                    C.pop();
+                    inside = false;
+                } else {
+
+                }
+            } else {
+                p = 0;
+                break;
             }
-            int fair = a - S.top();
-            if (fair == 1 || fair == 2) // fair 값 : () -> 1, [] -> 2
-            {
-                S.pop();
-                S.push((fair + 1) * (num != 0 ? num : 1));
-            }
-            else flag = true;
+
+
+
         }
     }
-    if (is_num(S.top()))
-    {
-        answer = S.top() - '0';
-        S.pop();
-    }
-    if (!S.empty()) flag = true;
-    if (flag) cout << 0;
-    cout << answer;
+    cout << p;
     return 0;
 }
-// [ : 91, ] : 93, ( : 40, ) : 41 -> fair가 1, 2 값이어야 옳은 경우
-// fiar가 1 : (), 2 : []
