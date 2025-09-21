@@ -39,9 +39,7 @@ int main(void) {
             || maps[nx][ny] != 0) continue;
             maps[nx][ny] = maps[P.first][P.second] + 1;
             count--;
-            // cout << "result(befoar) : " << result << "\n";
             result = max(result, maps[nx][ny]);
-            // cout << "result(after) : " << result << "\n\n";
             Q.push(make_pair(nx, ny));
         }
     }    

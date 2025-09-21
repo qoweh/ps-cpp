@@ -29,7 +29,7 @@ int main(void){
         for (auto j = 0; j < b; j++) {
             queue< pair<int, int> > Q;
             Q.push(make_pair(i, j));
-            if (visited[i][j] || M[i][j] == 0) continue;;
+            if (visited[i][j] || M[i][j] == 0) continue;
             num++;
             visited[i][j] = true;
             int area = 1;
