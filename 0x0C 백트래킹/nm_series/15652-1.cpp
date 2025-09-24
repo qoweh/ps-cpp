@@ -3,8 +3,7 @@
 using namespace std;
 
 int n, m;
-int input[7];
-int arr[7];
+int arr[8];
 
 void f(int k) {
     if (k == m) {
@@ -12,8 +11,10 @@ void f(int k) {
         cout << '\n';
         return ;
     }
-    for (int i = 0; i < n; i++) {
-        arr[k] = input[i];
+    int st = 1;
+    if (k != 0) st = arr[k - 1]; // 시작위치 보정
+    for (int i = st; i <= n; i++) {
+        arr[k] = i;
         f(k + 1);
     }
 }
@@ -23,8 +24,6 @@ int main(void) {
     cin.tie(0);
     
     cin >> n >> m;
-    for (int i = 0; i < n; i++) cin >> input[i];
-    sort(input, input + n);
     f(0);
     return 0;
 }

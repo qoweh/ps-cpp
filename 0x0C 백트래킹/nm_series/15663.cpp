@@ -7,15 +7,13 @@ int arr[8];
 
 void f(int k) {
     if (k == m) {
-        for (int i = 0; i < k; i++) cout << arr[i] << ' ';
-        cout << '\n';
+        if (1 /*중복되지 않으면 출력*/) {
+
+        }
         return ;
     }
-    for (int i = 1; i <= n; i++) {
-        if (k == 0 || (k != 0 && arr[k - 1] <= i)) {
-            arr[k] = i;
-            f(k + 1);
-        }
+    for (int i = 0; i < n && i != k; i++) {
+
     }
 }
 
@@ -24,6 +22,8 @@ int main(void) {
     cin.tie(0);
     
     cin >> n >> m;
+    for (int i = 0; i < n; i++) cin >> arr[i];
+    sort(arr, arr + n);
     f(0);
     return 0;
 }
