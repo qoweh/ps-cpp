@@ -12,18 +12,24 @@ int main(void) {
   stack<int> S;
   int cnt = 1;
   string ans;
-  while (n--) {
+  while (n--) { // n(8)번 반복 
     int t;
-    cin >> t;
+    cin >> t; // 4 3 6 8 7 5 2 1 하나씩
     while (cnt <= t) {
       S.push(cnt++);
+      //NOTE - 이런 식으로 결과를 문자열에 담는 것 좋다.
       ans += "+\n";
     }
-    if (S.top() != t) {
+
+
+    //NOTE - 끝까지 갈 필요없이 return 0; 때려버리는 거 좋다.
+    if (S.top() != t) { 
       cout << "NO\n";
       return 0;
     }
     S.pop();
+
+
     ans += "-\n";
   }
   cout << ans;
