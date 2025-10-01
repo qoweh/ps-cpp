@@ -1,7 +1,7 @@
 // Authored by : haneulkimdev
 // Co-authored by : -
 // http://boj.kr/98a57090ad0b472f86492f495a362127
-#include <bits/stdc++.h>
+#include "../../../bits/stdc++.h"
 using namespace std;
 
 int a[1000000];
