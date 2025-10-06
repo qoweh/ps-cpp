@@ -18,6 +18,8 @@ int main() {
     if(i % k == k-1) ans.push_back(V[i]); // k번째 사람일 때 
     else V.push_back(V[i]);
   }
+  for (auto& c : V) cout << c << " ";
+  cout << "\n\n";
 
   cout << "<";
   for(int i = 0; i < n; i++){

@@ -20,8 +20,6 @@ int main(void) {
       //NOTE - 이런 식으로 결과를 문자열에 담는 것 좋다.
       ans += "+\n";
     }
-
-
     //NOTE - 끝까지 갈 필요없이 return 0; 때려버리는 거 좋다.
     if (S.top() != t) { 
       cout << "NO\n";
