@@ -1,8 +1,11 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
         "ios": "cpp",
         "iostream": "cpp",
         "list": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "string": "cpp",
+        "stack": "cpp"
     }
 }
