@@ -7,5 +7,6 @@
         "queue": "cpp",
         "string": "cpp",
         "stack": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }
