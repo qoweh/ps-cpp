@@ -1,0 +1,195 @@
+
+
+카테고리
+
+검색하기
+on my way
+프로필사진
+wingbeat
+글쓰기
+방명록
+RSS
+관리
+algorithm/CodingTest
+SQL 코딩테스트 02: JOIN
+wingbeat 2024. 7. 8. 19:41
+1. JOIN의 유형
+MySQL에서 사용할 수 있는 주요 JOIN 유형은 다음과 같습니다:
+
+INNER JOIN
+LEFT JOIN (또는 LEFT OUTER JOIN)
+RIGHT JOIN (또는 RIGHT OUTER JOIN)
+FULL JOIN (MySQL은 직접 지원하지 않지만, UNION을 사용하여 구현할 수 있음)
+CROSS JOIN
+SELF JOIN
+ 
+
+1.1 INNER JOIN
+INNER JOIN은 두 테이블에서 매칭되는 행만 반환합니다.
+
+SELECT A.*, B.* 
+FROM TableA A INNER JOIN TableB B 
+ON A.common_column = B.common_column;
+ 
+
+1.2 LEFT JOIN
+LEFT JOIN은 왼쪽 테이블의 모든 행과 오른쪽 테이블에서 매칭되는 행을 반환합니다.
+
+매칭되지 않는 오른쪽 테이블의 열은 NULL로 표시됩니다.
+
+SELECT A.*, B.* 
+FROM TableA A 
+LEFT JOIN TableB B 
+ON A.common_column = B.common_column;
+ 
+
+1.3 RIGHT JOIN
+RIGHT JOIN은 오른쪽 테이블의 모든 행과 왼쪽 테이블에서 매칭되는 행을 반환합니다.
+
+매칭되지 않는 왼쪽 테이블의 열은 NULL로 표시됩니다.
+
+SELECT A.*, B.* 
+FROM TableA A 
+RIGHT JOIN TableB B 
+ON A.common_column = B.common_column;
+ 
+
+1.4 FULL JOIN
+FULL JOIN은 두 테이블에서 매칭되는 행과 매칭되지 않는 행을 모두 반환합니다.
+
+MySQL에서는 직접 지원되지 않지만, UNION을 사용하여 구현할 수 있습니다.
+
+SELECT A.*, B.*
+FROM TableA A
+LEFT JOIN TableB B ON A.common_column = B.common_column
+UNION
+SELECT A.*, B.*
+FROM TableA A
+RIGHT JOIN TableB B ON A.common_column = B.common_column;
+ 
+
+1.5 CROSS JOIN
+CROSS JOIN은 두 테이블의 모든 행의 조합을 반환합니다.
+
+각 테이블의 모든 행을 결합한 결과를 생성합니다.
+
+SELECT A.*, B.*
+FROM TableA A
+CROSS JOIN TableB B;
+ 
+
+1.6 SELF JOIN
+SELF JOIN은 동일한 테이블의 두 인스턴스를 조인합니다.
+
+자기 자신과 조인하는 경우 사용됩니다.
+
+SELECT A.*, B.*
+FROM TableA A
+INNER JOIN TableA B ON A.common_column = B.common_column;
+ 
+
+ 
+
+2. JOIN 사용 예제
+다양한 시나리오에서 JOIN을 사용하는 방법을 살펴보겠습니다.
+
+2.1 단순 조인
+employees 테이블과 departments 테이블이 있다고 가정합니다. 각 직원은 하나의 부서에 속해 있으며, 두 테이블은 department_id 열로 연결됩니다.
+
+SELECT e.employee_id, e.employee_name, d.department_name
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id;
+ 
+
+2.2 여러 테이블 조인
+세 개 이상의 테이블을 조인할 수 있습니다. employees, departments, locations 테이블이 있다고 가정합니다.
+
+SELECT e.employee_id, e.employee_name, d.department_name, l.location_name
+FROM employees e
+INNER JOIN departments d ON e.department_id = d.department_id
+INNER JOIN locations l ON d.location_id = l.location_id;
+ 
+
+2.3 자기 조인
+직원의 매니저 정보를 조회하는 자기 조인 예제입니다. employees 테이블에서 각 직원의 매니저를 조회합니다.
+
+SELECT e.employee_name AS employee, m.employee_name AS manager
+FROM employees e
+LEFT JOIN employees m ON e.manager_id = m.employee_id;
+ 
+
+3. JOIN의 성능 최적화
+JOIN을 사용할 때 성능을 최적화하기 위한 몇 가지 팁입니다:
+
+인덱스 사용: 조인에 사용되는 열에 인덱스를 생성하면 성능이 향상됩니다.
+필터 조건 추가: 조인 조건 외에도 WHERE 절을 사용하여 불필요한 행을 필터링하면 성능이 향상됩니다.
+필요한 열만 선택: SELECT * 대신 필요한 열만 선택하여 데이터 전송량을 줄입니다.
+서브쿼리 대신 조인 사용: 가능한 경우 서브쿼리 대신 조인을 사용하여 성능을 개선합니다.
+ 
+
+4. JOIN의 예제 문제
+4.1 예제 문제 1
+students 테이블과 courses 테이블이 있습니다. 각 학생은 여러 과정을 수강할 수 있으며, 두 테이블은 course_id 열로 연결됩니다. 각 학생의 이름과 수강하는 과정명을 조회하는 쿼리를 작성하세요.
+
+SELECT s.student_name, c.course_name
+FROM students s
+INNER JOIN courses c ON s.course_id = c.course_id;
+ 
+
+4.2 예제 문제 2
+orders 테이블과 customers 테이블이 있습니다. 각 주문은 한 고객에 속해 있으며, 두 테이블은 customer_id 열로 연결됩니다. 고객 이름과 주문 총액을 조회하는 쿼리를 작성하세요.
+
+SELECT c.customer_name, SUM(o.order_amount) AS total_order_amount
+FROM customers c
+INNER JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_name;
+ 
+
+위의 설명을 통해 MySQL에서 JOIN을 사용하는 방법과 다양한 시나리오에 대해 이해할 수 있습니다.
+
+JOIN을 효과적으로 사용하면 여러 테이블에서 데이터를 결합하여 원하는 정보를 쉽게 조회할 수 있습니다.
+
+
+좋아요1
+공유하기게시글 관리
+구독하기
+'algorithm > CodingTest' 카테고리의 다른 글
+Python 코딩테스트: 딕셔너리 문법과 기능, 해시테이블, Counter  (1)	2024.07.12
+SQL 코딩테스트 03: DATETIME 가공하기  (1)	2024.07.08
+JAVA 코딩테스트:: DFS, BFS는 어느 문제에서 풀어야 할까?  (1)	2024.06.26
+Java 코딩테스트:: Java 기본 문법  (0)	2024.06.26
+SQL 코딩테스트 01: WHERE절, HAVING절, 윈도우 함수, CTE, LEFT JOIN  (1)	2024.06.20
+'algorithm/CodingTest' Related Articles
+Python 코딩테스트: 딕셔너리 문법과 기능, 해시테이블, Counter
+2024.07.12
+
+SQL 코딩테스트 03: DATETIME 가공하기
+2024.07.08
+
+JAVA 코딩테스트:: DFS, BFS는 어느 문제에서 풀어야 할까?
+2024.06.26
+Java 코딩테스트:: Java 기본 문법
+2024.06.26
+more
+on my way
+IT 공부를 합니다
+
+구독하기
+댓글2
+winline
+오늘도 좋은 글 기대하며 방문했습니다. 차분하게 읽으며 많은 것을 배웠습니다. 작은 응원의 마음으로 광고도 함께 확인했습니다. 늘 건강하시고 평안한 하루 되시길 바랍니다.
+
+2025. 6. 4. 17:12
+답글
+더보기
+아카데미
+이웃 추가했어요 🌸
+
+2025. 6. 8. 19:46
+답글
+더보기
+이름
+비밀번호
+비밀글
+등록
+Blog is powered by kakao / Designed by Tistory

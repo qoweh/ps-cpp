@@ -1,0 +1,38 @@
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+queue<int> q;
+
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+
+	int n;
+	cin >> n;
+	while (n-- > 0) {
+		string s;
+		cin >> s;
+		if (s == "push") {
+			int t;
+			cin >> t;
+			q.push(t);
+		} else if (s == "pop") {
+			if (q.empty()) cout << -1 << '\n';
+			else {
+				cout << q.front() << '\n';
+				q.pop();
+			}
+		} else if (s == "size") {
+			cout << q.size() << '\n';
+		} else if (s == "empty") {
+			cout << q.empty() << '\n';
+		} else if (s == "front") {
+			cout << (q.empty() ? -1 : q.front()) << '\n';
+		} else if (s == "back") {
+			cout << (q.empty() ? -1 : q.back()) << '\n';
+		}
+	}
+	return 0;
+}

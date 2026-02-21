@@ -1,0 +1,121 @@
+
+
+카테고리
+
+검색하기
+on my way
+프로필사진
+wingbeat
+글쓰기
+방명록
+RSS
+관리
+algorithm/CodingTest
+SQL 코딩테스트 03: DATETIME 가공하기
+wingbeat 2024. 7. 8. 20:06
+1. 날짜와 시간 형식 변환
+DATE_FORMAT(): 날짜와 시간 형식을 변환합니다.
+SELECT DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i:%s');
+%Y: 연도 (4자리)
+%m: 월 (2자리)
+%d: 일 (2자리)
+%H: 시간 (24시간 형식, 2자리)
+%i: 분 (2자리)
+%s: 초 (2자리)
+2. 날짜와 시간 연산
+DATE_ADD(): 날짜를 더합니다.
+SELECT DATE_ADD(NOW(), INTERVAL 1 DAY);  -- 하루 더하기
+DATE_SUB(): 날짜를 뺍니다.
+
+SELECT DATE_SUB(NOW(), INTERVAL 1 HOUR); -- 한 시간 빼기
+DATEDIFF(): 두 날짜 간의 차이를 일 단위로 반환합니다.
+
+SELECT DATEDIFF('2023-07-01', '2023-06-30');  -- 결과: 1
+TIMEDIFF(): 두 DATETIME 값 간의 차이를 시간 단위로 반환합니다.
+
+SELECT TIMEDIFF('2023-06-30 16:30:00', '2023-06-30 14:30:00');  -- 결과: 02:00:00
+날짜 데이터에서 일부만을 추출하기
+YEAR : 연도 
+MONTH : 월 
+DAY : 일  (DAYOFMONTH와 같은 함수)
+HOUR : 시 
+MINUTE : 분 
+SECOND : 초 
+SELECT HOUR(DATETIME) AS HOUR FROM DATETABLE
+ 
+
+* 원하는 포맷으로 바꾸기
+DATE_FORMAT
+SELECT DATE_FORMAT(DATETIME,'%Y-%m-%d') FROM DATETABLE
+
+
+ 
+
+ 
+
+3. 실습 예제
+코딩 테스트에서 자주 접할 수 있는 실습 예제를 통해 DATETIME을 다루는 방법을 익혀봅시다.
+
+3.1 특정 기간 내의 데이터 조회
+다음은 최근 7일 동안의 이벤트를 조회하는 예제입니다.
+
+SELECT event_name, event_date
+FROM events
+WHERE event_date BETWEEN DATE_SUB(NOW(), INTERVAL 7 DAY) AND NOW();
+ 
+
+3.2 날짜 형식을 특정 형식으로 변환하여 조회
+다음은 이벤트 날짜를 "YYYY/MM/DD" 형식으로 변환하여 조회하는 예제입니다.
+
+SELECT event_name, DATE_FORMAT(event_date, '%Y/%m/%d') AS formatted_date
+FROM events;
+3.3 월별 이벤트 수 조회
+다음은 월별 이벤트 수를 조회하는 예제입니다.
+
+SELECT DATE_FORMAT(event_date, '%Y-%m') AS event_month, COUNT(*) AS event_count
+FROM events
+GROUP BY event_month
+ORDER BY event_month;
+3.4 주말 이벤트 조회
+다음은 주말에 발생한 이벤트를 조회하는 예제입니다.
+
+SELECT event_name, event_date
+FROM events
+WHERE DAYOFWEEK(event_date) IN (1, 7);  -- 1: 일요일, 7: 토요일
+
+좋아요공감
+공유하기게시글 관리
+구독하기
+'algorithm > CodingTest' 카테고리의 다른 글
+Python 코딩테스트 01: 스택, 큐, 우선순위 큐, 트리  (0)	2024.07.19
+Python 코딩테스트: 딕셔너리 문법과 기능, 해시테이블, Counter  (1)	2024.07.12
+SQL 코딩테스트 02: JOIN  (2)	2024.07.08
+JAVA 코딩테스트:: DFS, BFS는 어느 문제에서 풀어야 할까?  (1)	2024.06.26
+Java 코딩테스트:: Java 기본 문법  (0)	2024.06.26
+'algorithm/CodingTest' Related Articles
+Python 코딩테스트 01: 스택, 큐, 우선순위 큐, 트리
+2024.07.19
+Python 코딩테스트: 딕셔너리 문법과 기능, 해시테이블, Counter
+2024.07.12
+SQL 코딩테스트 02: JOIN
+2024.07.08
+
+JAVA 코딩테스트:: DFS, BFS는 어느 문제에서 풀어야 할까?
+2024.06.26
+more
+on my way
+IT 공부를 합니다
+
+구독하기
+댓글1
+soonlove
+항상 좋은 글 감사합니다. 차분하게 읽으며 많은 것을 배웠습니다. 좋은 글 덕분에 광고도 함께 보고 갑니다. 앞으로도 좋은 글 기대하겠습니다.
+
+2025. 6. 20. 01:37
+답글
+더보기
+이름
+비밀번호
+비밀글
+등록
+Blog is powered by kakao / Designed by Tistory
