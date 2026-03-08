@@ -13,8 +13,6 @@ basic-algo-lecture-backup/
 
 # VSCode settings (keep selected files)
 .vscode/*
-!.vscode/settings.json
-!.vscode/mcp.json
 
 # Others
 .idea/
