@@ -1,6 +1,5 @@
 본인이 만든 것이 아닌, [바킹독](https://github.com/encrypted-def/basic-algo-lecture)의 자료입니다.
 
-
 # 문제집 설명
 
 일부 단원을 제외하면 각 단원에 대응되는 문제집이 있습니다. 설령 이론을 잘 이해했더라도 문제를 풀어내지 못한다면 아무런 의미가 없기 때문에 반드시 문제를 많이 풀어보셔야 합니다.
@@ -30,38 +29,38 @@
 | :--: | :--: | :--: |
 | 0x00 | 오리엔테이션 (문제집 X) | |
 | 0x01 | 기초 코드 작성 요령 I (문제집 X) | |
-| 0x02 | [기초 코드 작성 요령 II](workbook/0x02.md) | ![100%](https://progress-bar.xyz/27/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
-| 0x03 | [배열](workbook/0x03.md) | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
-| 0x04 | [연결 리스트](workbook/0x04.md) | ![100%](https://progress-bar.xyz/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
-| 0x05 | [스택](workbook/0x05.md) | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
-| 0x06 | [큐](workbook/0x06.md) | ![100%](https://progress-bar.xyz/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
-| 0x07 | [덱](workbook/0x07.md) | ![100%](https://progress-bar.xyz/4/?scale=4&title=progress&width=500&color=babaca&suffix=/4) |
-| 0x08 | [스택의 활용(수식의 괄호 쌍)](workbook/0x08.md) | ![100%](https://progress-bar.xyz/5/?scale=5&title=progress&width=500&color=babaca&suffix=/5) |
-| 0x09 | [BFS](workbook/0x09.md) | ![100%](https://progress-bar.xyz/30/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
+| 0x02 | [기초 코드 작성 요령 II](workbook/files/0x02.md) | ![100%](https://progress-bar.xyz/0/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
+| 0x03 | [배열](workbook/files/0x03.md) | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
+| 0x04 | [연결 리스트](workbook/files/0x04.md) | ![100%](https://progress-bar.xyz/0/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
+| 0x05 | [스택](workbook/files/0x05.md) | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
+| 0x06 | [큐](workbook/files/0x06.md) | ![100%](https://progress-bar.xyz/0/?scale=3&title=progress&width=500&color=babaca&suffix=/3) |
+| 0x07 | [덱](workbook/files/0x07.md) | ![100%](https://progress-bar.xyz/0/?scale=4&title=progress&width=500&color=babaca&suffix=/4) |
+| 0x08 | [스택의 활용(수식의 괄호 쌍)](workbook/files/0x08.md) | ![100%](https://progress-bar.xyz/0/?scale=5&title=progress&width=500&color=babaca&suffix=/5) |
+| 0x09 | [BFS](workbook/files/0x09.md) | ![100%](https://progress-bar.xyz/0/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
 | 0x0A | DFS (문제집 X) | |
-| 0x0B | [재귀](workbook/0x0B.md) | ![100%](https://progress-bar.xyz/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
-| 0x0C | [백트래킹](workbook/0x0C.md) | ![100%](https://progress-bar.xyz/20/?scale=20&title=progress&width=500&color=babaca&suffix=/20) |
-| 0x0D | [시뮬레이션](workbook/0x0D.md) | ![100%](https://progress-bar.xyz/42/?scale=61&title=progress&width=500&color=babaca&suffix=/61) |
-| 0x0E | [정렬 I](workbook/0x0E.md) | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
-| 0x0F | [정렬 II](workbook/0x0F.md) | ![100%](https://progress-bar.xyz/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
-| 0x10 | [다이나믹 프로그래밍](workbook/0x10.md) | ![100%](https://progress-bar.xyz/31/?scale=31&title=progress&width=500&color=babaca&suffix=/31) |
-| 0x11 | [그리디](workbook/0x11.md) | ![100%](https://progress-bar.xyz/17/?scale=17&title=progress&width=500&color=babaca&suffix=/17) |
-| 0x12 | [수학](workbook/0x12.md) | ![100%](https://progress-bar.xyz/38/?scale=39&title=progress&width=500&color=babaca&suffix=/39) |
-| 0x13 | [이분탐색](workbook/0x13.md) | ![100%](https://progress-bar.xyz/20/?scale=21&title=progress&width=500&color=babaca&suffix=/21) |
-| 0x14 | [투 포인터](workbook/0x14.md) | ![100%](https://progress-bar.xyz/11/?scale=11&title=progress&width=500&color=babaca&suffix=/11) |
-| 0x15 | [해시](workbook/0x15.md) | ![100%](https://progress-bar.xyz/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
-| 0x16 | [이진 검색 트리](workbook/0x16.md) | ![100%](https://progress-bar.xyz/7/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
-| 0x17 | [우선순위 큐](workbook/0x17.md) | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
-| 0x18 | [그래프](workbook/0x18.md) | ![100%](https://progress-bar.xyz/13/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
-| 0x19 | [트리](workbook/0x19.md) | ![100%](https://progress-bar.xyz/13/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
-| 0x1A | [위상 정렬](workbook/0x1A.md) | ![100%](https://progress-bar.xyz/7/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
-| 0x1B | [최소 신장 트리](workbook/0x1B.md) | ![100%](https://progress-bar.xyz/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
-| 0x1C | [플로이드 알고리즘](workbook/0x1C.md) | ![100%](https://progress-bar.xyz/14/?scale=15&title=progress&width=500&color=babaca&suffix=/15) |
-| 0x1D | [다익스트라 알고리즘](workbook/0x1D.md) | ![100%](https://progress-bar.xyz/12/?scale=14&title=progress&width=500&color=babaca&suffix=/14) |
-| 0x1E | [KMP](workbook/0x1E.md) | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
-| 0x1F | [트라이](workbook/0x1F.md) | ![100%](https://progress-bar.xyz/10/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
-| Appendix A | [문자열 기초](workbook/Appendix%20A.md) | ![100%](https://progress-bar.xyz/13/?scale=16&title=progress&width=500&color=babaca&suffix=/16) |
+| 0x0B | [재귀](workbook/files/0x0B.md) | ![100%](https://progress-bar.xyz/0/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
+| 0x0C | [백트래킹](workbook/files/0x0C.md) | ![100%](https://progress-bar.xyz/0/?scale=20&title=progress&width=500&color=babaca&suffix=/20) |
+| 0x0D | [시뮬레이션](workbook/files/0x0D.md) | ![100%](https://progress-bar.xyz/0/?scale=61&title=progress&width=500&color=babaca&suffix=/61) |
+| 0x0E | [정렬 I](workbook/files/0x0E.md) | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
+| 0x0F | [정렬 II](workbook/files/0x0F.md) | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
+| 0x10 | [다이나믹 프로그래밍](workbook/files/0x10.md) | ![100%](https://progress-bar.xyz/0/?scale=31&title=progress&width=500&color=babaca&suffix=/31) |
+| 0x11 | [그리디](workbook/files/0x11.md) | ![100%](https://progress-bar.xyz/0/?scale=17&title=progress&width=500&color=babaca&suffix=/17) |
+| 0x12 | [수학](workbook/files/0x12.md) | ![100%](https://progress-bar.xyz/0/?scale=39&title=progress&width=500&color=babaca&suffix=/39) |
+| 0x13 | [이분탐색](workbook/files/0x13.md) | ![100%](https://progress-bar.xyz/0/?scale=21&title=progress&width=500&color=babaca&suffix=/21) |
+| 0x14 | [투 포인터](workbook/files/0x14.md) | ![100%](https://progress-bar.xyz/0/?scale=11&title=progress&width=500&color=babaca&suffix=/11) |
+| 0x15 | [해시](workbook/files/0x15.md) | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
+| 0x16 | [이진 검색 트리](workbook/files/0x16.md) | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
+| 0x17 | [우선순위 큐](workbook/files/0x17.md) | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
+| 0x18 | [그래프](workbook/files/0x18.md) | ![100%](https://progress-bar.xyz/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
+| 0x19 | [트리](workbook/files/0x19.md) | ![100%](https://progress-bar.xyz/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
+| 0x1A | [위상 정렬](workbook/files/0x1A.md) | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
+| 0x1B | [최소 신장 트리](workbook/files/0x1B.md) | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
+| 0x1C | [플로이드 알고리즘](workbook/files/0x1C.md) | ![100%](https://progress-bar.xyz/0/?scale=15&title=progress&width=500&color=babaca&suffix=/15) |
+| 0x1D | [다익스트라 알고리즘](workbook/files/0x1D.md) | ![100%](https://progress-bar.xyz/0/?scale=14&title=progress&width=500&color=babaca&suffix=/14) |
+| 0x1E | [KMP](workbook/files/0x1E.md) | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8) |
+| 0x1F | [트라이](workbook/files/0x1F.md) | ![100%](https://progress-bar.xyz/0/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
+| Appendix A | [문자열 기초](workbook/files/Appendix%20A.md) | ![100%](https://progress-bar.xyz/0/?scale=16&title=progress&width=500&color=babaca&suffix=/16) |
 | Appendix B | 동적 배열 (문제집 X) | |
-| Appendix C | [비트마스킹](workbook/Appendix%20C.md) | ![100%](https://progress-bar.xyz/2/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
-| Appendix D | [Union-Find](workbook/Appendix%20D.md) | ![100%](https://progress-bar.xyz/2/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
-| Appendix E | [다이나믹 프로그래밍 심화](workbook/Appendix%20E.md) | ![100%](https://progress-bar.xyz/16/?scale=25&title=progress&width=500&color=babaca&suffix=/24) |
+| Appendix C | [비트마스킹](workbook/files/Appendix%20C.md) | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7) |
+| Appendix D | [Union-Find](workbook/files/Appendix%20D.md) | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9) |
+| Appendix E | [다이나믹 프로그래밍 심화](workbook/files/Appendix%20E.md) | ![100%](https://progress-bar.xyz/0/?scale=24&title=progress&width=500&color=babaca&suffix=/24) |
