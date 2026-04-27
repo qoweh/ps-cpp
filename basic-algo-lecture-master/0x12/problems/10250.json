@@ -28,5 +28,23 @@
     "데이터를 만든 사람: baekjoon",
     "어색한 표현을 찾은 사람: hidonggi"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:12.329192+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:12.329192+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "10250-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images2/acmhotel.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "10250-2.png",
+      "source_url": "https://www.acmicpc.net/upload/images2/elevator.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

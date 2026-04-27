@@ -52,5 +52,31 @@
     "문제를 번역한 사람: baekjoon",
     "잘못된 조건을 찾은 사람: hmw9309"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:21.893693+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:21.893693+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "1074-1.png",
+      "source_url": "https://u.acmicpc.net/21c73b56-5a91-43aa-b71f-9b74925c0adc/Screen%20Shot%202020-12-02%20at%208.09.46%20AM.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "1074-2.png",
+      "source_url": "https://u.acmicpc.net/adc7cfae-e84d-4d5c-af8e-ee011f8fff8f/Screen%20Shot%202020-12-02%20at%208.11.17%20AM.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "1074-3.png",
+      "source_url": "https://u.acmicpc.net/d3e84bb7-9424-4764-ad3a-811e7fcbd53f/Screen%20Shot%202020-12-30%20at%2010.50.47%20PM.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

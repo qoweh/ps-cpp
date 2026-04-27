@@ -36,5 +36,15 @@
   "source": [
     "문제를 만든 사람: baekjoon"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:56.255216+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:56.255216+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "11727-1.gif",
+      "source_url": "https://www.acmicpc.net/upload/images/t2n2122.gif",
+      "section": "problem_description",
+      "content_type": "image/gif",
+      "alt": ""
+    }
+  ]
 }

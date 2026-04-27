@@ -40,5 +40,15 @@
     "데이터를 추가한 사람: artichoke42, eric9709",
     "잘못된 번역을 찾은 사람: kks227"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:07.645834+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:07.645834+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "10266-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images2/clock.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -27,5 +27,31 @@
     "문제를 만든 사람: kookmin20103324",
     "빠진 조건을 찾은 사람: doju"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:54.666044+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:54.666044+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "13418-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/13418/F1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "13418-2.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/13418/F2.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "13418-3.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/13418/F3.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

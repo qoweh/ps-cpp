@@ -34,5 +34,15 @@
     "잘못된 데이터를 찾은 사람: admln, jh05013",
     "데이터를 추가한 사람: eaststar, kangwlgns"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:07.964611+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:07.964611+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "11585-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/11585/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

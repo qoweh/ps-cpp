@@ -27,5 +27,15 @@
     "문제를 번역한 사람: baekjoon",
     "문제의 오타를 찾은 사람: pathfinder"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:04.612221+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:04.612221+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "4883-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images/trigraph.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

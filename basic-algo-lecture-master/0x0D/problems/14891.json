@@ -41,5 +41,55 @@
   "source": [
     "문제를 만든 사람: baekjoon"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:33.344268+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:33.344268+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "14891-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "14891-2.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/2.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "14891-3.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/3.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 4,
+      "file": "14891-4.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/4.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 5,
+      "file": "14891-5.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/5.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 6,
+      "file": "14891-6.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14891/6.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -26,5 +26,15 @@
   "source": [
     "잘못된 조건을 찾은 사람: Apple_Cplus"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:33.314654+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:33.314654+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "2283-1.png",
+      "source_url": "https://www.acmicpc.net/upload/201008/rnrks.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

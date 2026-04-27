@@ -28,5 +28,23 @@
     "잘못된 데이터를 찾은 사람: choiking10",
     "데이터를 추가한 사람: troas96"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:24.159132+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:24.159132+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "2630-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images/bwxBxc7ghGOedQfiT3p94KYj1y9aLR.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "2630-2.png",
+      "source_url": "https://www.acmicpc.net/upload/images/VHJpKWQDv.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

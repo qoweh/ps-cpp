@@ -43,5 +43,15 @@
     "데이터를 추가한 사람: jinhan814",
     "문제를 검수한 사람: BaaaaaaaaaaarkingDog, dlstj0923, tony9402"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:06.448576+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:06.448576+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "20183-1.png",
+      "source_url": "https://i.imgur.com/72X0NKv.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -26,5 +26,15 @@
   "source": [
     "문제를 번역한 사람: baekjoon"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:51.813289+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:51.813289+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "7795-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images/ee(1).png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

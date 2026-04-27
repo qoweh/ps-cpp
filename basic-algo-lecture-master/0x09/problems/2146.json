@@ -28,5 +28,23 @@
     "데이터를 추가한 사람: hello70825, ohyuni",
     "빠진 조건을 찾은 사람: choiking10"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:16.379260+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:16.379260+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "2146-1.png",
+      "source_url": "https://www.acmicpc.net/upload/201008/bri.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "2146-2.png",
+      "source_url": "https://www.acmicpc.net/upload/201008/b2.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

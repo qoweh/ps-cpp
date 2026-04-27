@@ -27,5 +27,159 @@
     "문제를 만든 사람: baekjoon",
     "문제의 오타를 찾은 사람: frogyou2330"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:36.154819+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:36.154819+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "1620-1.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p1.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "1620-2.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p2.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "1620-3.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p3.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 4,
+      "file": "1620-4.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p4.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 5,
+      "file": "1620-5.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p5.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 6,
+      "file": "1620-6.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p6.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 7,
+      "file": "1620-7.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p7.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 8,
+      "file": "1620-8.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p8.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 9,
+      "file": "1620-9.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/p9.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 10,
+      "file": "1620-10.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pa.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 11,
+      "file": "1620-11.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pb.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 12,
+      "file": "1620-12.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pc.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 13,
+      "file": "1620-13.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pd.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 14,
+      "file": "1620-14.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pe.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 15,
+      "file": "1620-15.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pf.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 16,
+      "file": "1620-16.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pg.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 17,
+      "file": "1620-17.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/ph.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 18,
+      "file": "1620-18.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pi.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 19,
+      "file": "1620-19.png",
+      "source_url": "https://www.acmicpc.net/upload/201004/pn.PNG",
+      "section": "problem_output",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

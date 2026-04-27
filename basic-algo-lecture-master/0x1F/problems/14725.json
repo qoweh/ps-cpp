@@ -33,5 +33,15 @@
     "데이터를 추가한 사람: xb205",
     "빠진 조건을 찾은 사람: leejuhu"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:12.029498+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:12.029498+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "14725-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14725/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

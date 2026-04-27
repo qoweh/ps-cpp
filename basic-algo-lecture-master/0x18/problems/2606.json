@@ -27,5 +27,15 @@
     "잘못된 데이터를 찾은 사람: djm03178, jsa3824",
     "데이터를 추가한 사람: chansol, jh05013"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:45.222315+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:45.222315+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "2606-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images/zmMEZZ8ioN6rhCdHmcIT4a7.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

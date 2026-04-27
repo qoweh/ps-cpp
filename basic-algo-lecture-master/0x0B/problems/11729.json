@@ -27,5 +27,15 @@
     "문제를 만든 사람: baekjoon",
     "빠진 조건을 찾은 사람: hayman42"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:22.118770+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:22.118770+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "11729-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/11729/hanoi.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

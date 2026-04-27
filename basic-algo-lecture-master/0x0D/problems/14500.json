@@ -38,5 +38,23 @@
     "문제의 오타를 찾은 사람: bluebrown",
     "데이터를 추가한 사람: appie701, crookid, esuperstar, raboribus, rlatpwlsdlek, stack, vjerksen"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:31.544932+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:31.544932+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "14500-1.svg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:All_5_free_tetrominoes.svg",
+      "section": "problem_description",
+      "content_type": "text/html; charset=UTF-8",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "14500-2.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14500/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

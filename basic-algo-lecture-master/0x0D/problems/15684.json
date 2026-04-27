@@ -59,5 +59,71 @@
     "데이터를 추가한 사람: commetgo, line1029, seobing",
     "빠진 조건을 찾은 사람: ntopia"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:33.777756+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:33.777756+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "15684-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "15684-2.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/2.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "15684-3.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/3.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 4,
+      "file": "15684-4.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/4.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 5,
+      "file": "15684-5.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/ex3.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 6,
+      "file": "15684-6.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/ans3.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 7,
+      "file": "15684-7.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/ex7.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 8,
+      "file": "15684-8.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15684/ans7.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -27,5 +27,23 @@
     "문제의 오타를 찾은 사람: cjswodmlskfk, eric00513",
     "데이터를 추가한 사람: ckswofl"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:03.873623+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:03.873623+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "2579-1.png",
+      "source_url": "https://u.acmicpc.net/7177ea45-aa8d-4724-b256-7b84832c9b97/Screen%20Shot%202021-06-23%20at%203.00.46%20PM.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "2579-2.png",
+      "source_url": "https://u.acmicpc.net/f00b6121-1c25-492e-9bc0-d96377c586b0/Screen%20Shot%202021-06-23%20at%203.01.39%20PM.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

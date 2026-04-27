@@ -28,5 +28,15 @@
     "데이터를 추가한 사람: flareon078, kth004, Lawali",
     "어색한 표현을 찾은 사람: eric00513"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:10.188975+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:10.188975+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "6549-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images/histogram.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -26,5 +26,15 @@
   "source": [
     "문제를 만든 사람: flflds0811"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:24.571089+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:24.571089+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "12784-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/12784/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -27,5 +27,23 @@
     "문제를 만든 사람: author10",
     "문제의 오타를 찾은 사람: happiness96"
   ],
-  "fetched_at_utc": "2026-04-27T14:05:00.667782+00:00"
+  "fetched_at_utc": "2026-04-27T14:05:00.667782+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "1719-1.png",
+      "source_url": "https://www.acmicpc.net/upload/201005/taekbae.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "1719-2.png",
+      "source_url": "https://www.acmicpc.net/upload/201005/tktk.PNG",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

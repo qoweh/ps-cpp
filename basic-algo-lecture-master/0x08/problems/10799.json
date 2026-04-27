@@ -32,5 +32,15 @@
     "데이터를 추가한 사람: djm03178, junqwoopark",
     "데이터를 만든 사람: baekjoon"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:12.046297+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:12.046297+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "10799-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/10799/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

@@ -37,5 +37,23 @@
     "문제를 만든 사람: hihihi",
     "데이터를 추가한 사람: hsh8086"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:53.886865+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:53.886865+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "10423-1.png",
+      "source_url": "https://www.acmicpc.net/upload/images2/E1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "10423-2.png",
+      "source_url": "https://www.acmicpc.net/upload/images2/E2.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

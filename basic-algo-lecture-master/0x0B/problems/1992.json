@@ -26,5 +26,15 @@
   "source": [
     "데이터를 추가한 사람: kofgb"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:23.451040+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:23.451040+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "1992-1.png",
+      "source_url": "https://www.acmicpc.net/upload/201007/qq.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

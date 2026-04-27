@@ -42,5 +42,55 @@
     "문제를 만든 사람: baekjoon",
     "문제의 오타를 찾은 사람: jh05013"
   ],
-  "fetched_at_utc": "2026-04-27T14:03:34.025383+00:00"
+  "fetched_at_utc": "2026-04-27T14:03:34.025383+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "15685-1.png",
+      "source_url": "http://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/1.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 2,
+      "file": "15685-2.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/2.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 3,
+      "file": "15685-3.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/3.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 4,
+      "file": "15685-4.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/4.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 5,
+      "file": "15685-5.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/ex1.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    },
+    {
+      "index": 6,
+      "file": "15685-6.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15685/ex2.png",
+      "section": "problem_hint",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

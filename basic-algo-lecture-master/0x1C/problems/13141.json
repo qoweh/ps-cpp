@@ -32,5 +32,15 @@
     "문제를 만든 사람: functionx",
     "잘못된 데이터를 찾은 사람: paraworld"
   ],
-  "fetched_at_utc": "2026-04-27T14:04:57.707219+00:00"
+  "fetched_at_utc": "2026-04-27T14:04:57.707219+00:00",
+  "images": [
+    {
+      "index": 1,
+      "file": "13141-1.png",
+      "source_url": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/13141/I_ignite.png",
+      "section": "problem_description",
+      "content_type": "image/png",
+      "alt": ""
+    }
+  ]
 }

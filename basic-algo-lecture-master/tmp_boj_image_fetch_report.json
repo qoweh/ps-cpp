@@ -1,0 +1,15 @@
+{
+  "json_targets": 502,
+  "unique_problem_ids": 484,
+  "problems_with_images": 55,
+  "failures": [
+    {
+      "problem_id": 1854,
+      "stage": "download_image",
+      "image_url": "https://www.acmicpc.net/upload/201006/Screen",
+      "error": "403 Client Error: Forbidden for url: https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/upload/201006/Screen"
+
+      "https://www.acmicpc.net/problem/201006"
+    }
+  ]
+}
