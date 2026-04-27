@@ -1,0 +1,33 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1253",
+  "problem_id": 1253,
+  "title": "좋다",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "256 MB",
+    "submitted": "84911",
+    "accepted": "22469",
+    "solved": "15954",
+    "accept_rate": "25.291%"
+  },
+  "sections": {
+    "description": "N개의 수 중에서 어떤 수가 다른 수 두 개의 합으로 나타낼 수 있다면 그 수를 “좋다(GOOD)”고 한다.\n\nN개의 수가 주어지면 그 중에서 좋은 수의 개수는 몇 개인지 출력하라.\n\n수의 위치가 다르면 값이 같아도 다른 수이다.",
+    "input": "첫째 줄에는 수의 개수 N(1 ≤ N ≤ 2,000), 두 번째 줄에는 i번째 수를 나타내는 Ai가 N개 주어진다. (|Ai| ≤ 1,000,000,000, Ai는 정수)",
+    "output": "좋은 수의 개수를 첫 번째 줄에 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "10\n1 2 3 4 5 6 7 8 9 10",
+      "output": "8"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: xhark",
+    "문제의 오타를 찾은 사람: jh05013",
+    "데이터를 추가한 사람: BaaaaaaaaaaarkingDog, baggomsoon96, jame0313, kevin0928, kiwiyou",
+    "빠진 조건을 찾은 사람: tongnamuu"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:24.534328+00:00"
+}

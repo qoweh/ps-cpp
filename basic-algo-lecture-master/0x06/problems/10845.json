@@ -1,0 +1,32 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/10845",
+  "problem_id": 10845,
+  "title": "큐",
+  "meta": {
+    "time_limit": "0.5 초 (추가 시간 없음)",
+    "memory_limit": "256 MB",
+    "submitted": "169827",
+    "accepted": "82882",
+    "solved": "65209",
+    "accept_rate": "50.182%"
+  },
+  "sections": {
+    "description": "정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.\n\n명령은 총 여섯 가지이다.\n\n- push X: 정수 X를 큐에 넣는 연산이다.\n\n- pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.\n\n- size: 큐에 들어있는 정수의 개수를 출력한다.\n\n- empty: 큐가 비어있으면 1, 아니면 0을 출력한다.\n\n- front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.\n\n- back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.",
+    "input": "첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 10,000)이 주어진다. 둘째 줄부터 N개의 줄에는 명령이 하나씩 주어진다. 주어지는 정수는 1보다 크거나 같고, 100,000보다 작거나 같다. 문제에 나와있지 않은 명령이 주어지는 경우는 없다.",
+    "output": "출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "15\npush 1\npush 2\nfront\nback\nsize\nempty\npop\npop\npop\nsize\nempty\npop\npush 3\nempty\nfront",
+      "output": "1\n2\n2\n0\n1\n2\n-1\n0\n1\n-1\n0\n3"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon",
+    "문제의 오타를 찾은 사람: compro0317",
+    "데이터를 추가한 사람: deunlee"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:10.398538+00:00"
+}

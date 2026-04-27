@@ -1,0 +1,36 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1676",
+  "problem_id": 1676,
+  "title": "팩토리얼 0의 개수",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "113581",
+    "accepted": "53299",
+    "solved": "44841",
+    "accept_rate": "46.378%"
+  },
+  "sections": {
+    "description": "N!에서 뒤에서부터 처음 0이 아닌 숫자가 나올 때까지 0의 개수를 구하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 N이 주어진다. (0 ≤ N ≤ 500)",
+    "output": "첫째 줄에 구한 0의 개수를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "10",
+      "output": "2"
+    },
+    {
+      "index": 2,
+      "input": "3",
+      "output": "0"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: author6",
+    "데이터를 추가한 사람: 111111111111, his130"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:16.823927+00:00"
+}

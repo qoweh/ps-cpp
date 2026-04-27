@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/9498",
+  "problem_id": 9498,
+  "title": "시험 성적",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "128 MB",
+    "submitted": "525269",
+    "accepted": "288264",
+    "solved": "239164",
+    "accept_rate": "54.936%"
+  },
+  "sections": {
+    "description": "시험 점수를 입력받아 90 ~ 100점은 A, 80 ~ 89점은 B, 70 ~ 79점은 C, 60 ~ 69점은 D, 나머지 점수는 F를 출력하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 시험 점수가 주어진다. 시험 점수는 0보다 크거나 같고, 100보다 작거나 같은 정수이다.",
+    "output": "시험 성적을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "100",
+      "output": "A"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:02:29.445786+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/11478",
+  "problem_id": 11478,
+  "title": "서로 다른 부분 문자열의 개수",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "512 MB",
+    "submitted": "46299",
+    "accepted": "29771",
+    "solved": "24069",
+    "accept_rate": "64.521%"
+  },
+  "sections": {
+    "description": "문자열 S가 주어졌을 때, S의 서로 다른 부분 문자열의 개수를 구하는 프로그램을 작성하시오.\n\n부분 문자열은 S에서 연속된 일부분을 말하며, 길이가 1보다 크거나 같아야 한다.\n\n예를 들어, ababc의 부분 문자열은 a, b, a, b, c, ab, ba, ab, bc, aba, bab, abc, abab, babc, ababc가 있고, 서로 다른것의 개수는 12개이다.",
+    "input": "첫째 줄에 문자열 S가 주어진다. S는 알파벳 소문자로만 이루어져 있고, 길이는 1,000 이하이다.",
+    "output": "첫째 줄에 S의 서로 다른 부분 문자열의 개수를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "ababc",
+      "output": "12"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:34.797934+00:00"
+}

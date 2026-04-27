@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1181",
+  "problem_id": 1181,
+  "title": "단어 정렬",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "256 MB",
+    "submitted": "253756",
+    "accepted": "109990",
+    "solved": "82114",
+    "accept_rate": "41.476%"
+  },
+  "sections": {
+    "description": "알파벳 소문자로 이루어진 N개의 단어가 들어오면 아래와 같은 조건에 따라 정렬하는 프로그램을 작성하시오.\n\n- 길이가 짧은 것부터\n\n- 길이가 같으면 사전 순으로\n\n단, 중복된 단어는 하나만 남기고 제거해야 한다.",
+    "input": "첫째 줄에 단어의 개수 N이 주어진다. (1 ≤ N ≤ 20,000) 둘째 줄부터 N개의 줄에 걸쳐 알파벳 소문자로 이루어진 단어가 한 줄에 하나씩 주어진다. 주어지는 문자열의 길이는 50을 넘지 않는다.",
+    "output": "조건에 따라 정렬하여 단어들을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "13\nbut\ni\nwont\nhesitate\nno\nmore\nno\nmore\nit\ncannot\nwait\nim\nyours",
+      "output": "i\nim\nit\nno\nbut\nmore\nwait\nwont\nyours\ncannot\nhesitate"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: author5"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:50.199411+00:00"
+}

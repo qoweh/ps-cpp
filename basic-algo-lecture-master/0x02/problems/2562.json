@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/2562",
+  "problem_id": 2562,
+  "title": "최댓값",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "128 MB",
+    "submitted": "428173",
+    "accepted": "199491",
+    "solved": "162797",
+    "accept_rate": "45.793%"
+  },
+  "sections": {
+    "description": "9개의 서로 다른 자연수가 주어질 때, 이들 중 최댓값을 찾고 그 최댓값이 몇 번째 수인지를 구하는 프로그램을 작성하시오.\n\n예를 들어, 서로 다른 9개의 자연수\n\n3, 29, 38, 12, 57, 74, 40, 85, 61\n\n이 주어지면, 이들 중 최댓값은 85이고, 이 값은 8번째 수이다.",
+    "input": "첫째 줄부터 아홉 번째 줄까지 한 줄에 하나의 자연수가 주어진다. 주어지는 자연수는 100 보다 작다.",
+    "output": "첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 몇 번째 수인지를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "3\n29\n38\n12\n57\n74\n40\n85\n61",
+      "output": "85\n8"
+    }
+  ],
+  "source": [
+    "데이터를 추가한 사람: sait2000"
+  ],
+  "fetched_at_utc": "2026-04-27T14:02:27.939022+00:00"
+}

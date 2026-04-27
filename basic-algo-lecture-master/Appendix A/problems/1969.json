@@ -1,0 +1,43 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1969",
+  "problem_id": 1969,
+  "title": "DNA",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "14031",
+    "accepted": "8002",
+    "solved": "6700",
+    "accept_rate": "58.767%"
+  },
+  "sections": {
+    "description": "DNA란 어떤 유전물질을 구성하는 분자이다. 이 DNA는 서로 다른 4가지의 뉴클레오티드로 이루어져 있다(Adenine, Thymine, Guanine, Cytosine). 우리는 어떤 DNA의 물질을 표현할 때, 이 DNA를 이루는 뉴클레오티드의 첫글자를 따서 표현한다. 만약에 Thymine-Adenine-Adenine-Cytosine-Thymine-Guanine-Cytosine-Cytosine-Guanine-Adenine-Thymine로 이루어진 DNA가 있다고 하면, “TAACTGCCGAT”로 표현할 수 있다. 그리고 Hamming Distance란 길이가 같은 두 DNA가 있을 때, 각 위치의 뉴클오티드 문자가 다른 것의 개수이다. 만약에 “AGCAT\"와 ”GGAAT\"는 첫 번째 글자와 세 번째 글자가 다르므로 Hamming Distance는 2이다.\n\n우리가 할 일은 다음과 같다. N개의 길이 M인 DNA s1, s2, ..., sn가 주어져 있을 때 Hamming Distance의 합이 가장 작은 DNA s를 구하는 것이다. 즉, s와 s1의 Hamming Distance + s와 s2의 Hamming Distance + s와 s3의 Hamming Distance ... 의 합이 최소가 된다는 의미이다.",
+    "input": "첫 줄에 DNA의 수 N과 문자열의 길이 M이 주어진다. 그리고 둘째 줄부터 N+1번째 줄까지 N개의 DNA가 주어진다. N은 1,000보다 작거나 같은 자연수이고, M은 50보다 작거나 같은 자연수이다.",
+    "output": "첫째 줄에 Hamming Distance의 합이 가장 작은 DNA 를 출력하고, 둘째 줄에는 그 Hamming Distance의 합을 출력하시오. 그러한 DNA가 여러 개 있을 때에는 사전순으로 가장 앞서는 것을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "5 8\nTATGATAC\nTAAGCTAC\nAAAGATCC\nTGAGATAC\nTAAGATGT",
+      "output": "TAAGATAC\n7"
+    },
+    {
+      "index": 2,
+      "input": "4 10\nACGTACGTAC\nCCGTACGTAG\nGCGTACGTAT\nTCGTACGTAA",
+      "output": "ACGTACGTAA\n6"
+    },
+    {
+      "index": 3,
+      "input": "6 10\nATGTTACCAT\nAAGTTACGAT\nAACAAAGCAA\nAAGTTACCTT\nAAGTTACCAA\nTACTTACCAA",
+      "output": "AAGTTACCAA\n12"
+    }
+  ],
+  "source": [
+    "잘못된 데이터를 찾은 사람: tncks0121",
+    "데이터를 추가한 사람: sohnjunior",
+    "빠진 조건을 찾은 사람: jsa3824",
+    "잘못된 번역을 찾은 사람: previc1"
+  ],
+  "fetched_at_utc": "2026-04-27T14:05:16.475810+00:00"
+}

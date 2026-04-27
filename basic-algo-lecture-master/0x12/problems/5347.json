@@ -1,0 +1,32 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/5347",
+  "problem_id": 5347,
+  "title": "LCM",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "128 MB",
+    "submitted": "12494",
+    "accepted": "5942",
+    "solved": "5249",
+    "accept_rate": "51.090%"
+  },
+  "sections": {
+    "description": "두 수 a와 b가 주어졌을 때, a와 b의 최소 공배수를 구하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 테스트 케이스의 개수 n이 주어진다. 다음 n개 줄에는 a와 b가 주어진다. a와 b사이에는 공백이 하나 이상 있다. 두 수는 백만보다 작거나 같은 자연수이다.",
+    "output": "각 테스트 케이스에 대해서 입력으로 주어진 두 수의 최소공배수를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "3\n15 21\n33 22\n9 10",
+      "output": "105\n66\n90"
+    }
+  ],
+  "source": [
+    "문제를 번역한 사람: baekjoon",
+    "잘못된 데이터를 찾은 사람: tncks0121",
+    "데이터를 추가한 사람: leeh18"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:22.229911+00:00"
+}

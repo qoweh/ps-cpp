@@ -1,0 +1,45 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/10610",
+  "problem_id": 10610,
+  "title": "30",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "256 MB",
+    "submitted": "56957",
+    "accepted": "23728",
+    "solved": "19005",
+    "accept_rate": "41.167%"
+  },
+  "sections": {
+    "description": "어느 날, 미르코는 우연히 길거리에서 양수 N을 보았다. 미르코는 30이란 수를 존경하기 때문에, 그는 길거리에서 찾은 수에 포함된 숫자들을 섞어 30의 배수가 되는 가장 큰 수를 만들고 싶어한다.\n\n미르코를 도와 그가 만들고 싶어하는 수를 계산하는 프로그램을 작성하라.",
+    "input": "N을 입력받는다. N는 최대 105개의 숫자로 구성되어 있으며, 0으로 시작하지 않는다.",
+    "output": "미르코가 만들고 싶어하는 수가 존재한다면 그 수를 출력하라. 그 수가 존재하지 않는다면, -1을 출력하라."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "30",
+      "output": "30"
+    },
+    {
+      "index": 2,
+      "input": "102",
+      "output": "210"
+    },
+    {
+      "index": 3,
+      "input": "2931",
+      "output": "-1"
+    },
+    {
+      "index": 4,
+      "input": "80875542",
+      "output": "88755420"
+    }
+  ],
+  "source": [
+    "문제를 번역한 사람: aaa"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:13.220009+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/13144",
+  "problem_id": 13144,
+  "title": "List of Unique Numbers",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "32 MB",
+    "submitted": "15413",
+    "accepted": "5804",
+    "solved": "4199",
+    "accept_rate": "35.688%"
+  },
+  "sections": {
+    "description": "길이가 N인 수열이 주어질 때, 수열에서 연속한 1개 이상의 수를 뽑았을 때 같은 수가 여러 번 등장하지 않는 경우의 수를 구하는 프로그램을 작성하여라.",
+    "input": "첫 번째 줄에는 수열의 길이 N이 주어진다. (1 ≤ N ≤ 100,000)\n\n두 번째 줄에는 수열을 나타내는 N개의 정수가 주어진다. 수열에 나타나는 수는 모두 1 이상 100,000 이하이다.",
+    "output": "조건을 만족하는 경우의 수를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "5\n1 2 3 4 5",
+      "output": "15"
+    },
+    {
+      "index": 2,
+      "input": "5\n1 2 3 1 2",
+      "output": "12"
+    },
+    {
+      "index": 3,
+      "input": "5\n1 1 1 1 1",
+      "output": "5"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: functionx",
+    "잘못된 데이터를 찾은 사람: tncks0121"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:30.994904+00:00"
+}

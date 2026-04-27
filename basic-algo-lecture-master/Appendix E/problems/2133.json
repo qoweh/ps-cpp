@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/2133",
+  "problem_id": 2133,
+  "title": "타일 채우기",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "62382",
+    "accepted": "23384",
+    "solved": "18532",
+    "accept_rate": "37.282%"
+  },
+  "sections": {
+    "description": "3×N 크기의 벽을 2×1, 1×2 크기의 타일로 채우는 경우의 수를 구해보자.",
+    "input": "첫째 줄에 N(1 ≤ N ≤ 30)이 주어진다.",
+    "output": "첫째 줄에 경우의 수를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "2",
+      "output": "3"
+    }
+  ],
+  "source": [
+    "문제의 오타를 찾은 사람: imgosari"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:59.443183+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1629",
+  "problem_id": 1629,
+  "title": "곱셈",
+  "meta": {
+    "time_limit": "0.5 초 (추가 시간 없음)",
+    "memory_limit": "128 MB",
+    "submitted": "172585",
+    "accepted": "51223",
+    "solved": "37051",
+    "accept_rate": "28.585%"
+  },
+  "sections": {
+    "description": "자연수 A를 B번 곱한 수를 알고 싶다. 단 구하려는 수가 매우 커질 수 있으므로 이를 C로 나눈 나머지를 구하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 A, B, C가 빈 칸을 사이에 두고 순서대로 주어진다. A, B, C는 모두 2,147,483,647 이하의 자연수이다.",
+    "output": "첫째 줄에 A를 B번 곱한 수를 C로 나눈 나머지를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "10 11 12",
+      "output": "4"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: author5"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:22.660211+00:00"
+}

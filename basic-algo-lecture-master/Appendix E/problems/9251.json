@@ -1,0 +1,31 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/9251",
+  "problem_id": 9251,
+  "title": "LCS",
+  "meta": {
+    "time_limit": "0.1 초 (하단 참고)",
+    "memory_limit": "256 MB",
+    "submitted": "115656",
+    "accepted": "50425",
+    "solved": "36905",
+    "accept_rate": "42.803%"
+  },
+  "sections": {
+    "description": "LCS(Longest Common Subsequence, 최장 공통 부분 수열)문제는 두 수열이 주어졌을 때, 모두의 부분 수열이 되는 수열 중 가장 긴 것을 찾는 문제이다.\n\n예를 들어, ACAYKP와 CAPCAK의 LCS는 ACAK가 된다.",
+    "input": "첫째 줄과 둘째 줄에 두 문자열이 주어진다. 문자열은 알파벳 대문자로만 이루어져 있으며, 최대 1000글자로 이루어져 있다.",
+    "output": "첫째 줄에 입력으로 주어진 두 문자열의 LCS의 길이를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "ACAYKP\nCAPCAK",
+      "output": "4"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon",
+    "데이터를 추가한 사람: bang627, beginnertomaster, eric00513, fs_edge, qpwoeiruty"
+  ],
+  "fetched_at_utc": "2026-04-27T14:04:04.248393+00:00"
+}

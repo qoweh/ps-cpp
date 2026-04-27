@@ -1,0 +1,40 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/15655",
+  "problem_id": 15655,
+  "title": "N과 M (6)",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "512 MB",
+    "submitted": "32254",
+    "accepted": "26947",
+    "solved": "21497",
+    "accept_rate": "83.923%"
+  },
+  "sections": {
+    "description": "N개의 자연수와 자연수 M이 주어졌을 때, 아래 조건을 만족하는 길이가 M인 수열을 모두 구하는 프로그램을 작성하시오. N개의 자연수는 모두 다른 수이다.\n\n- N개의 자연수 중에서 M개를 고른 수열\n\n- 고른 수열은 오름차순이어야 한다.",
+    "input": "첫째 줄에 N과 M이 주어진다. (1 ≤ M ≤ N ≤ 8)\n\n둘째 줄에 N개의 수가 주어진다. 입력으로 주어지는 수는 10,000보다 작거나 같은 자연수이다.",
+    "output": "한 줄에 하나씩 문제의 조건을 만족하는 수열을 출력한다. 중복되는 수열을 여러 번 출력하면 안되며, 각 수열은 공백으로 구분해서 출력해야 한다.\n\n수열은 사전 순으로 증가하는 순서로 출력해야 한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "3 1\n4 5 2",
+      "output": "2\n4\n5"
+    },
+    {
+      "index": 2,
+      "input": "4 2\n9 8 7 1",
+      "output": "1 7\n1 8\n1 9\n7 8\n7 9\n8 9"
+    },
+    {
+      "index": 3,
+      "input": "4 4\n1231 1232 1233 1234",
+      "output": "1231 1232 1233 1234"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:25.822357+00:00"
+}

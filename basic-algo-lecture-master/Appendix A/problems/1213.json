@@ -1,0 +1,45 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1213",
+  "problem_id": 1213,
+  "title": "팰린드롬 만들기",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "40721",
+    "accepted": "18430",
+    "solved": "13611",
+    "accept_rate": "44.415%"
+  },
+  "sections": {
+    "description": "임한수와 임문빈은 서로 사랑하는 사이이다.\n\n임한수는 세상에서 팰린드롬인 문자열을 너무 좋아하기 때문에, 둘의 백일을 기념해서 임문빈은 팰린드롬을 선물해주려고 한다.\n\n임문빈은 임한수의 영어 이름으로 팰린드롬을 만들려고 하는데, 임한수의 영어 이름의 알파벳 순서를 적절히 바꿔서 팰린드롬을 만들려고 한다.\n\n임문빈을 도와 임한수의 영어 이름을 팰린드롬으로 바꾸는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 임한수의 영어 이름이 있다. 알파벳 대문자로만 된 최대 50글자이다.",
+    "output": "첫째 줄에 문제의 정답을 출력한다. 만약 불가능할 때는 \"I'm Sorry Hansoo\"를 출력한다. 정답이 여러 개일 경우에는 사전순으로 앞서는 것을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "AABB",
+      "output": "ABBA"
+    },
+    {
+      "index": 2,
+      "input": "AAABB",
+      "output": "ABABA"
+    },
+    {
+      "index": 3,
+      "input": "ABACABA",
+      "output": "AABCBAA"
+    },
+    {
+      "index": 4,
+      "input": "ABCD",
+      "output": "I'm Sorry Hansoo"
+    }
+  ],
+  "source": [
+    "문제를 번역한 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:05:14.799026+00:00"
+}

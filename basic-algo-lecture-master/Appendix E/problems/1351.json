@@ -1,0 +1,51 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1351",
+  "problem_id": 1351,
+  "title": "무한 수열",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "17458",
+    "accepted": "6795",
+    "solved": "5600",
+    "accept_rate": "38.134%"
+  },
+  "sections": {
+    "description": "무한 수열 A는 다음과 같다.\n\n- A0 = 1\n\n- Ai = A⌊i/P⌋ + A⌊i/Q⌋ (i ≥ 1)\n\nN, P와 Q가 주어질 때, AN을 구하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 3개의 정수 N, P, Q가 주어진다.",
+    "output": "첫째 줄에 AN을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "7 2 3",
+      "output": "7"
+    },
+    {
+      "index": 2,
+      "input": "0 2 3",
+      "output": "1"
+    },
+    {
+      "index": 3,
+      "input": "10000000 3 3",
+      "output": "32768"
+    },
+    {
+      "index": 4,
+      "input": "256 2 4",
+      "output": "89"
+    },
+    {
+      "index": 5,
+      "input": "1 1000000 1000000",
+      "output": "2"
+    }
+  ],
+  "source": [
+    "문제를 번역한 사람: baekjoon",
+    "문제의 오타를 찾은 사람: jh05013"
+  ],
+  "fetched_at_utc": "2026-04-27T14:05:25.052625+00:00"
+}

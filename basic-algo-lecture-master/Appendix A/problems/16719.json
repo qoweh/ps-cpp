@@ -1,0 +1,40 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/16719",
+  "problem_id": 16719,
+  "title": "ZOAC",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "256 MB",
+    "submitted": "4218",
+    "accepted": "2236",
+    "solved": "1820",
+    "accept_rate": "55.002%"
+  },
+  "sections": {
+    "description": "2018년 12월, 처음 시작하게 된 ZOAC의 오프닝을 맡은 성우는 누구보다 화려하게 ZOAC를 알리려 한다.\n\n앞 글자부터 하나씩 보여주는 방식은 너무 식상하다고 생각한 성우는 문자열을 보여주는 새로운 규칙을 고안해냈다!\n\n규칙은 이러하다. 아직 보여주지 않은 문자 중 추가했을 때의 문자열이 사전 순으로 가장 앞에 오도록 하는 문자를 보여주는 것이다.\n\n예를 들어 ZOAC를 보여주고 싶다면, A → AC → OAC → ZOAC 순으로 보여주면 된다.\n\n바쁜 성우를 위하여 이 규칙대로 출력해주는 프로그램을 작성하시오.",
+    "input": "첫 번째 줄에 알파벳 대문자로 구성된 문자열이 주어진다. 문자열의 길이는 최대 100자이다.",
+    "output": "규칙에 맞게 순서대로 문자열을 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "ZOAC",
+      "output": "A\nAC\nOAC\nZOAC"
+    },
+    {
+      "index": 2,
+      "input": "BAC",
+      "output": "A\nAC\nBAC"
+    },
+    {
+      "index": 3,
+      "input": "STARTLINK",
+      "output": "A\nAI\nAIK\nAINK\nALINK\nARLINK\nARTLINK\nSARTLINK\nSTARTLINK"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: hellogaon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:05:15.814155+00:00"
+}

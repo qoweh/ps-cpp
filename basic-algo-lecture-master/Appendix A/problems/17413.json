@@ -1,0 +1,60 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/17413",
+  "problem_id": 17413,
+  "title": "단어 뒤집기 2",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "512 MB",
+    "submitted": "42623",
+    "accepted": "24356",
+    "solved": "18871",
+    "accept_rate": "57.469%"
+  },
+  "sections": {
+    "description": "문자열 S가 주어졌을 때, 이 문자열에서 단어만 뒤집으려고 한다.\n\n먼저, 문자열 S는 아래와과 같은 규칙을 지킨다.\n\n- 알파벳 소문자('a'-'z'), 숫자('0'-'9'), 공백(' '), 특수 문자('<', '>')로만 이루어져 있다.\n\n- 문자열의 시작과 끝은 공백이 아니다.\n\n- '<'와 '>'가 문자열에 있는 경우 번갈아가면서 등장하며, '<'이 먼저 등장한다. 또, 두 문자의 개수는 같다.\n\n태그는 '<'로 시작해서 '>'로 끝나는 길이가 3 이상인 부분 문자열이고, '<'와 '>' 사이에는 알파벳 소문자와 공백만 있다. 단어는 알파벳 소문자와 숫자로 이루어진 부분 문자열이고, 연속하는 두 단어는 공백 하나로 구분한다. 태그는 단어가 아니며, 태그와 단어 사이에는 공백이 없다.",
+    "input": "첫째 줄에 문자열 S가 주어진다. S의 길이는 100,000 이하이다.",
+    "output": "첫째 줄에 문자열 S의 단어를 뒤집어서 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "baekjoon online judge",
+      "output": "noojkeab enilno egduj"
+    },
+    {
+      "index": 2,
+      "input": "<open>tag<close>",
+      "output": "<open>gat<close>"
+    },
+    {
+      "index": 3,
+      "input": "<ab cd>ef gh<ij kl>",
+      "output": "<ab cd>fe hg<ij kl>"
+    },
+    {
+      "index": 4,
+      "input": "one1 two2 three3 4fourr 5five 6six",
+      "output": "1eno 2owt 3eerht rruof4 evif5 xis6"
+    },
+    {
+      "index": 5,
+      "input": "<int><max>2147483647<long long><max>9223372036854775807",
+      "output": "<int><max>7463847412<long long><max>7085774586302733229"
+    },
+    {
+      "index": 6,
+      "input": "<problem>17413<is hardest>problem ever<end>",
+      "output": "<problem>31471<is hardest>melborp reve<end>"
+    },
+    {
+      "index": 7,
+      "input": "< space >space space space< spa c e>",
+      "output": "< space >ecaps ecaps ecaps< spa c e>"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:05:16.177064+00:00"
+}

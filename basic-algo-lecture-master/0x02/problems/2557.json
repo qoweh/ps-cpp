@@ -1,0 +1,28 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/2557",
+  "problem_id": 2557,
+  "title": "Hello World",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "128 MB",
+    "submitted": "1472111",
+    "accepted": "599876",
+    "solved": "408188",
+    "accept_rate": "39.682%"
+  },
+  "sections": {
+    "description": "Hello World!를 출력하시오.",
+    "input": "없음",
+    "output": "Hello World!를 출력하시오."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "",
+      "output": "Hello World!"
+    }
+  ],
+  "source": [],
+  "fetched_at_utc": "2026-04-27T14:02:27.667549+00:00"
+}

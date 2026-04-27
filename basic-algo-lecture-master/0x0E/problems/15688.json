@@ -1,0 +1,45 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/15688",
+  "problem_id": 15688,
+  "title": "수 정렬하기 5",
+  "meta": {
+    "time_limit": "10 초 (하단 참고)",
+    "memory_limit": "128 MB",
+    "submitted": "16651",
+    "accepted": "8198",
+    "solved": "6255",
+    "accept_rate": "50.387%"
+  },
+  "sections": {
+    "description": "N개의 수가 주어졌을 때, 이를 비내림차순으로 정렬하는 프로그램을 작성하시오.\n\n길이가 K인 수열 A가 A1 ≤ A2 ≤ ... ≤ AK-1 ≤ AK를 만족하면, 비내림차순이라고 한다.",
+    "input": "첫째 줄에 수의 개수 N(1 ≤ N ≤ 1,000,000)이 주어진다. 둘째 줄부터 N개의 줄에는 숫자가 주어진다. 이 수는 절댓값이 1,000,000보다 작거나 같은 정수이며, 같은 수가 여러 번 중복될 수도 있다.",
+    "output": "첫째 줄부터 N개의 줄에 비내림차순으로 정렬한 결과를 한 줄에 하나씩 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "5\n5\n4\n3\n2\n1",
+      "output": "1\n2\n3\n4\n5"
+    },
+    {
+      "index": 2,
+      "input": "5\n1\n2\n1\n2\n1",
+      "output": "1\n1\n1\n2\n2"
+    },
+    {
+      "index": 3,
+      "input": "5\n1\n2\n3\n4\n5",
+      "output": "1\n2\n3\n4\n5"
+    },
+    {
+      "index": 4,
+      "input": "6\n0\n0\n0\n0\n0\n0",
+      "output": "0\n0\n0\n0\n0\n0"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:48.711152+00:00"
+}

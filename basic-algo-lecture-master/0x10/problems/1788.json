@@ -1,0 +1,46 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/1788",
+  "problem_id": 1788,
+  "title": "피보나치 수의 확장",
+  "meta": {
+    "time_limit": "2 초",
+    "memory_limit": "128 MB",
+    "submitted": "16861",
+    "accepted": "5750",
+    "solved": "4911",
+    "accept_rate": "34.080%"
+  },
+  "sections": {
+    "description": "$$F(n) := \\begin{cases}0 & \\text{if }n = 0\\text{;} \\\\ 1 & \\text{if }n = 1\\text{;} \\\\ F(n-1) + F(n-2) & \\text{if }n > 1\\text{.} \\end{cases}$$\n\n수학에서, 피보나치 수는 위의 점화식과 같이 귀납적으로 정의되는 수열이다. 위의 식에서도 알 수 있듯이, 피보나치 수 F(n)은 0 이상의 n에 대해서만 정의된다.\n\n하지만 피보나치 수 F(n)을 n이 음수인 경우로도 확장시킬 수 있다. 위의 식에서 n > 1인 경우에만 성립하는 F(n) = F(n-1) + F(n-2)를 n ≤ 1일 때도 성립되도록 정의하는 것이다. 예를 들어 n = 1일 때 F(1) = F(0) + F(-1)이 성립되어야 하므로, F(-1)은 1이 되어야 한다.\n\nn이 주어졌을 때, 피보나치 수 F(n)을 구하는 프로그램을 작성하시오. n은 음수로 주어질 수도 있다.",
+    "input": "첫째 줄에 n이 주어진다. n은 절댓값이 1,000,000을 넘지 않는 정수이다.",
+    "output": "첫째 줄에 F(n)이 양수이면 1, 0이면 0, 음수이면 -1을 출력한다. 둘째 줄에는 F(n)의 절댓값을 출력한다. 이 수가 충분히 커질 수 있으므로, 절댓값을 1,000,000,000으로 나눈 나머지를 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "-2",
+      "output": "-1\n1"
+    },
+    {
+      "index": 2,
+      "input": "0",
+      "output": "0\n0"
+    },
+    {
+      "index": 3,
+      "input": "10",
+      "output": "1\n55"
+    },
+    {
+      "index": 4,
+      "input": "-7",
+      "output": "1\n13"
+    }
+  ],
+  "source": [
+    "문제를 번역한 사람: author5",
+    "문제의 오타를 찾은 사람: ksmin1114"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:58.783035+00:00"
+}

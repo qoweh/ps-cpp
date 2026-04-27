@@ -1,0 +1,30 @@
+{
+  "schema_version": "v0-preview",
+  "source_url": "https://www.acmicpc.net/problem/11656",
+  "problem_id": 11656,
+  "title": "접미사 배열",
+  "meta": {
+    "time_limit": "1 초",
+    "memory_limit": "256 MB",
+    "submitted": "31575",
+    "accepted": "22399",
+    "solved": "18769",
+    "accept_rate": "71.646%"
+  },
+  "sections": {
+    "description": "접미사 배열은 문자열 S의 모든 접미사를 사전순으로 정렬해 놓은 배열이다.\n\nbaekjoon의 접미사는 baekjoon, aekjoon, ekjoon, kjoon, joon, oon, on, n 으로 총 8가지가 있고, 이를 사전순으로 정렬하면, aekjoon, baekjoon, ekjoon, joon, kjoon, n, on, oon이 된다.\n\n문자열 S가 주어졌을 때, 모든 접미사를 사전순으로 정렬한 다음 출력하는 프로그램을 작성하시오.",
+    "input": "첫째 줄에 문자열 S가 주어진다. S는 알파벳 소문자로만 이루어져 있고, 길이는 1,000보다 작거나 같다.",
+    "output": "첫째 줄부터 S의 접미사를 사전순으로 한 줄에 하나씩 출력한다."
+  },
+  "samples": [
+    {
+      "index": 1,
+      "input": "baekjoon",
+      "output": "aekjoon\nbaekjoon\nekjoon\njoon\nkjoon\nn\non\noon"
+    }
+  ],
+  "source": [
+    "문제를 만든 사람: baekjoon"
+  ],
+  "fetched_at_utc": "2026-04-27T14:03:49.945356+00:00"
+}
